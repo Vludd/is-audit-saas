@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text=auto eol=lf
 
 *.sh text eol=lf
 *.bash text eol=lf
@@ -25,3 +25,6 @@
 
 *.pdf binary
 *.sqlite3 binary
+
+Makefile text eol=lf
+Dockerfile text eol=lf
